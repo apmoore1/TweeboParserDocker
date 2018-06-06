@@ -13,6 +13,10 @@ If you want to map the port 8000 running from the docker image to your local mac
 ```
 docker run -p 8050:8000 --rm mooreap/TweeboParserServer
 ```
+If you want to run the server as a background task add -d:
+```
+docker run -p 8050:8000 -d --rm mooreap/TweeboParserServer
+```
 Different options:
 1. Setting the port on the API server to 9000:
 ```
