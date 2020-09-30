@@ -34,3 +34,9 @@ docker run -p 8000:8000 --rm mooreap/tweeboparserdocker --threads 3
 ```
 docker run --rm mooreap/tweeboparserdocker -h
 ```
+
+## Issues
+
+### Windows OS
+
+1. See the following issue if you have a problem connecting to the server while running the docker image on windows OS, [issue](https://github.com/apmoore1/TweeboParserDocker/issues/1). 
